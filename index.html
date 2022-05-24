@@ -10,19 +10,27 @@
 <body>
    <div class="header"><h1>Choose Your Challenger!</h1> </div>
 
-   <div class="row">
-  <button class ="button" type ="button" onclick="rock()">Rock</button> 
-    <script src="game.js"></script>
    
-
-    <button class ="button" type ="button" onclick="paper()">Paper</button> 
-    <script src="game.js"></script>
-    
-
-    <button class ="button" type ="button" onclick="scissors()">Scissors</button> 
-    <script src="game.js"></script>
+       <div class="game">
+           <div class="row">
+  <button class ="button" >Rock</button> 
    
+    <button class ="button" >Paper</button> 
+
+    <button class ="button" >Scissors</button> 
     </div>
+    
+   <div class="playercolor"> <h2 class="gametext" id="playerText">Player:</h2> </div>
+    <div class="computercolor"><h2 class="gametext" id="computerText">Computer:</h2> </div>
+    <div class="outcome"><h2 class="gametext" id="resultText">Result:</h2> </div>
+   <h2 class="pscore"> Player Score: </h2>
+    <h2 class="'gametext" id="pscore">0</h2>
+        <h2 class="cpscore"> Computer Score: </h2>
+    <h2 class="gametext" id="cpscore">0</h2>
+    </div>
+    </div>
+    <script src="game.js"></script>
+
 
     <footer id="footer">Disclaimer: I do not own any pictures above.</footer>
 </body>

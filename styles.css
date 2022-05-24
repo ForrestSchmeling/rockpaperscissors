@@ -40,3 +40,22 @@
     
 }
 
+.playercolor{
+    color :green;
+}
+.computercolor{
+    color: blue;
+}
+.outcome{
+    color:red;
+}
+.game{
+    text-align:center;
+    font-family:sans-serif;
+}
+.pscore{
+    color:rgb(128, 128, 21);
+}
+.cpscore{
+    color:blueviolet;
+}

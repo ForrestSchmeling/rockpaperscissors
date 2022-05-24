@@ -1,0 +1,1 @@
+Decided to make the game into html rather than go with the command prompt so other people who are not computer savvy can play the game as-well. Hope you enjoy my game it has taken me a while to learn all the parts but definite getting more comfortable with JavaScript.
